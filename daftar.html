@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <!-- Load file CSS Bootstrap offline -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+ <link rel="stylesheet" href ="css/style.css">
+
+</head>
+<body>
+<div class="container-sm">
+<h2>Form Login dengan Bootstrap</h2>
+    <form action="#" method="post">
+
+<div class="container mt-5">
+    <form>
+ <div class="form-group">
+     <label>Nama:</label>
+     <input type="text" name="username" class="form-control" placeholder="Nama" />
+ </div>
+    <div class="form-group">
+  <label>Pilih Jurusan:</label>
+  <select class="form-control">
+    <option>Teknik Informatika</option>
+    <option>Sistem Informasi</option>
+    <option>Teknik Komputer</option>
+    <option>Manajemen</option>
+	<option>Akuntansi</option>
+  </select>
+</div> 
+ <div class="form-group">
+     <label>Jenis Kelamin:</label>
+	
+<div class="form-check">
+
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio">Laki-laki
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="radio" class="form-check-input" name="optradio">Perempuan
+  </label>
+</div>
+ </div>
+ <div class="form-group">
+     <label>Hobi:</label>
+	
+ <div class="form-check">
+
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Sepak Bola
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Membaca Buku
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Berenang
+  </label>
+</div> 
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Bermain Gitar
+  </label>
+</div> 
+<div class="form-check">
+  <label class="form-check-label">
+    <input type="checkbox" class="form-check-input" value="">Traveling
+  </label>
+</div> 
+ </div>
+
+ <div class="form-group">
+  <label>Alamat:</label>
+  <textarea class="form-control" rows="5"></textarea>
+</div> 
+</form>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contohModal">
+    Submit
+  </button>
+
+  <br><br>
+  <!-- Modal -->
+  <div class="modal fade" id="contohModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Login dengan Bootstrap</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h1>Apakah anda sudah yakin?</h1>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+	</div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html> 
